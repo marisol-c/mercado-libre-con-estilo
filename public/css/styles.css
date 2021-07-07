@@ -1,22 +1,126 @@
 body{
     box-sizing: border-box;
-    background-color:#EAC926;
+}
+header{
+background-color: #EAC926;
+margin: none;
+padding: none;
+}
+header nav ul li{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 3px;
+    padding-top: 1px;
+    width: 50%;
+}
+header .buscador{
+    width: 35%;
+    background-color:#ebebeb ;
+    color: #03264C;
+    padding-top: 5px;
+    margin-bottom: 20px 15px 15px;
+    border: solid 1px  #000000;
+    
+}
+header .compra{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 5px;
+    text-align: center;
+}
+header .menu{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: black;
 }
 
 .home .logo{
-width: 100%;
+width: 50%;
+margin: 15px;
+padding: 15px;
+}
+.buscar{
+    margin: 15px;
+}
+.home .buscador{
+   width: 4px;
+   height: 4px;
+   padding: 10px;
+   margin: 15px;
+   display:inline-block;
 }
 .home header section h3{
     font-size: 15px;
     padding: 0;
     margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.home .burguer{
+    display: inline-block;
+    width: 28px;
+    background-color: #032640;
+    color:#ebebeb;
+    padding: 10px;
+    margin-bottom: 30px 30px 30px;
+    margin-left: 150px;
+    border-radius: 4px;
+    height: 28px;
+    text-align: center;
+    font-size: 25px;
 }
 .home main section article img{
     width: 80%;
 }
+
 .home footer section p{
     text-align: center;
 }
 .home footer section h3{
     text-align: center;
+}
+section article .precio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+section article .ofertas{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+section article .titular{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+footer h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+footer section .tarjeta{
+    display: inline-block;
+    color: #116fd3;
+    margin:2px;
+    padding-left: 150px;
+background-size: 200px;
+}
+footer section .regalo{
+    display: inline-block;
+    color: #116fd3;
+    margin:2px;
+    padding-left: 150px;
+    background-size: 200px;
+}
+footer section .segu{
+    display: inline-block;
+    color: #116fd3;
+    margin:2px;
+    padding-left: 150px;
+    background-size: 200px;
 }
